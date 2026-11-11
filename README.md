@@ -1,11 +1,21 @@
-# Social Media Web App  
+# 1. One-line description
 
-## 📌 Overview  
-A simple social media web application that allows users to browse posts, view post details, and manage profiles. The project includes essential frontend functionalities such as infinite scrolling, post interactions, and user profile management.  
+Social media web app for browsing posts, profiles, and user interactions.
 
-## 🔧 Features  
-- **Home Page (`home.html`)** – Displays posts with infinite scrolling.  
-- **Post Details Page (`postDetails.html`)** – Shows a detailed view of a specific post.  
-- **Profile Page (`profile.html`)** – Displays user profile information.  
-- **Dynamic Content Loading** – Uses JavaScript (`homeScript.js`, `profileScript.js`, `mainLogic.js`) to handle user interactions.  
-- **Modular Codebase** – Organized scripts for different functionalities.  
+# 2. Tech stack
+
+- axios
+- Bootstrap
+
+# 3. Key features
+
+- User login and registration with local token storage
+- Home feed with post cards and infinite scroll loading
+- Create, edit, and delete posts for the signed-in user
+- Profile page showing user details and their posts
+- Post detail page with comments and comment creation
+
+# 4. Run steps
+
+1. Run: `npm install`
+2. Open `home.html` in a browser to use the app
